@@ -277,6 +277,7 @@ form div.container {
     flex-wrap: wrap;
     border-radius: 20px;
     z-index: 1;
+    text-align: center;
 }
 .form-title {
     font-family: "Poppins", sans-serif;
@@ -295,7 +296,7 @@ textarea{
  box-shadow: 0 0.02rem 0.5rem rgb(0 0 0 / 50%);
  border-radius: 20px;
  display: block;
- width: 70%;
+ width: 100%;
 }
 /* Footer */
 /* Credit: code for footer transition styling taken from: https://thequig-lebowski.github.io/MS1_CodeInstitute/#contact with a slight edit to fit the project needs */
