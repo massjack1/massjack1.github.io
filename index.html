@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="A website about myself and my skills">
+    <meta name="keywords" content="CV,Skills,HTML,CSS,JavaScript">
+    <meta name="author" content="Mass Jack">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Mass Jack Portfolio</title>
+</head>
+<!-- Some Codesnippets from a file that assisted me, Included in the ReadMe.md file -->
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="50" tabindex="0">
+    <!-- Navigation Bar -->
+    <!-- Some Codesnippets from a file that assisted me, Included in the ReadMe.md file -->
+    <header>
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#home">MassJack</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Landing Page/Home -->
+    <main>
+        <!-- Some Codesnippets from a tutorial that assisted me, Included in the ReadMe.md file -->
+        <section id="home" class="text-center">
+            <div class="container-fluid hero">
+                <div class="row">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Hello, I'm Mass Jack</h1>
+                        <h2 class="hero-subtitle">I am a Full Stack Developer based in Stockholm Sweden. I have a
+                            creative
+                            vision & a love for learning.</h2>
+                        <a href="#about">About</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skills Section -->
+        <!-- Some Codesnippets from a tutorial that assisted me, Included in the ReadMe.md file -->
+        <section class="skills">
+            <div class="container-fluid">
+                <h1 id="skills" class="uppercase">Skills</h1>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-8">
+                        <div class="skills-bar">
+                            <div class="bar">
+                                <div class="info">
+                                    <span>HTML</span>
+                                </div>
+                                <div class="progress-line html"><span></span></div>
+                            </div>
+                            <div class="bar">
+                                <div class="info">
+                                    <span>CSS</span>
+                                </div>
+                                <div class="progress-line css"><span></span></div>
+                            </div>
+                            <div class="bar">
+                                <div class="info">
+                                    <span>Javascript</span>
+                                </div>
+                                <div class="progress-line javascript"><span></span></div>
+                            </div>
+                            <div class="bar">
+                                <div class="info">
+                                    <span>Bootstrap</span>
+                                </div>
+                                <div class="progress-line bootstrap"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+            </div>
+        </section>
+        <!-- About -->
+        <section class="about text-center">
+            <div class="container-fluid">
+                <h1 id="about" class="uppercase mb-5">About</h1>
+                <div class="row about">
+                    <div class="col-12">
+                        <p>
+                            The name is Mass Jack. I am a Full Stack Developer in Stockholm Sweden. I specialize in<br>
+                            different areas in both Front End but also Back End Development. I am an advocate for <br>
+                            Challenges & Change. Whether it's solving riddles or helping out with inspiration or so.
+
+                        </p>
+                        <p>
+                            The main Goal is to find the best fit to collaborate with. It could be anyone<br>
+                            from a Company looking for someone to hire to a student looking for inspiration.
+                        </p>
+                        <p>
+                            My Work Experience has sort of paved the way to learn more about Software Development.
+                        </p>
+                        <p>
+                            <em><strong>"We Connect the dots with the right spots. But most importantly, We <br>look for
+                                    needs
+                                    instead of ideas."</strong></em>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <!-- Some Codesnippets from a tutorial that assisted me, Included in the ReadMe.md file -->
+        <section class="contact">
+            <div class="container">
+                <h1 id="contact" class="uppercase mb-5">Contact</h1>
+                <form action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
+                    <div class="mb-3">
+                        <input type="text" class="area1" id="name" name="name" aria-describedby="nameHelp" placeholder="Name:" required>
+                        <div id="nameHelp" class="form-text">We'll never share your name with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="area2" id="email" name="email" aria-describedby="emailHelp" placeholder="Email:" required>
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <textarea id="message" name="message" placeholder="Message:" required></textarea>
+                        </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </section>
+        <!-- Footer -->
+        <!-- Footer Inspiration in Readme.md file -->
+        <footer class="footer bg bg-dark">
+            <div class="container-fluid">
+                <div class="row justify-content-md-center">
+                    <div class="mr-auto ml-auto my-footer">
+                        <ul class="list-inline social-links">
+                            <li class="list-inline-item">
+                                <a href="https://github.com/massjack1/Milestone-Project-1" target="_blank"
+                                    aria-label="Link to my Github Page (opens in a new tab)">
+                                    <i class="fab fa-github" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/massjack" target="_blank"
+                                    aria-label="Link to my Linkedin Page (opens in a new tab)">
+                                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/massjackdesign/" target="_blank"
+                                    aria-label="Link to my Instagram Page (opens in a new tab)">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-center p-3">
+                    © 2021 Copyright
+                </div>
+            </div>
+        </footer>
+    </main>
+    <!-- Script Bundle taken from https://getbootstrap.com/ -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
